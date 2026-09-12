@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href = "moew.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Jacquard+12&display=swap" rel="stylesheet">
+    <head>
+        
+        <title> MY website! </title>
+    </head>
+    <body>
+        <h1> the great WEBSITE :3 </h1>
+        <p> you see, this is a very well made attempt, being the website itself id like to say that we have the write to look however we want, dispite what our developers write >:c </p>
+        <p> now have a seal </p>
+        <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyRphWjaiFvCVD_zomTqbBHV3G_PgM3wS3_o_M8QHwdcCeOr1RPLcFmZU&s=10">
+
+        <h2> QUIZ TIME: </h2>
+        <p> if the world was gonna explode in 38 seconds, what would you do? </p>
+        <button id ="buttonA"> A: spend all your money at the wattaburgers in texas</button> 
+        <br>
+        <button id ="buttonB"> B: explode before the world does cause you're cool like that</button> 
+        <br>
+        <button id ="buttonC"> C: sit for 38 seconds</button> 
+        <br>
+        <button id="buttonD"> D: trick answer</button> 
+        <h3 id="result"></h3>
+
+        <h4> The end</h4>
+        <p class="little"> you better have liked this website.... otherwise....</p>
+
+        
+
+    </body>
+    
+</html>
+<script>
+    const buttonA = document.getElementById('buttonA')
+    buttonA.addEventListener('click', function(){
+        document.getElementById('result').innerText = "KABOOM!!!! *do NOT got to the wattaburgers in texas*"
+    })
+    const buttonB = document.getElementById('buttonB')
+    buttonB.addEventListener('click', function(){
+        document.getElementById('result').innerText = "KABOOM!!!! *you did not explode in time and the world exploded first*"
+    })
+    const buttonC= document.getElementById('buttonC')
+    buttonC.addEventListener('click', function(){
+        document.getElementById('result').innerText = "KABOOM!!!! *good choice*"
+    })
+    const buttonD= document.getElementById('buttonD')
+    buttonD.addEventListener('click', function(){
+        document.getElementById('result').innerText = ":3............     KABOOM!!!!!"
+
+    })
+</script>

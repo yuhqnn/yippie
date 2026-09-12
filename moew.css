@@ -1,0 +1,41 @@
+img {
+    width: 500px;
+    height: 200px;
+    margin: auto;
+}
+body{
+    background-image: url('https://i.pinimg.com/736x/11/01/db/1101db710eebcb6badf9755f126db50c.jpg');
+    background-size: contain;
+}
+h1{
+    font-size: 100px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    font-family: "Jacquard 12";
+    font-weight: lighter;
+    font-size: 20px;
+     text-align: center;
+}
+h2{
+    text-align: center;
+}
+button{
+    color: aqua;
+    background-color: darkcyan;
+    padding: 10px 5px;
+}
+h4{
+    text-align: center;
+    font-size: 70px;
+    font-family: fantasy;
+    background-color: chartreuse;
+    color: blue;
+    margin-bottom: 1px;
+}
+.little{
+    font-family: Arial;
+    font-size: 10px;
+    color:blueviolet;
+    margin: -1px;
+}
